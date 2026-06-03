@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-900 text-slate-100 min-h-screen;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.glass-card {
+  @apply bg-dark-800/80 backdrop-blur-md border border-dark-700/50 rounded-2xl p-6 transition-all duration-300 h-full;
+}
+
+.glass-card:hover {
+  @apply border-primary-500/30 bg-dark-800 shadow-lg shadow-primary-500/5;
+}
+
+.refresh-btn {
+  @apply p-2 rounded-lg bg-dark-700/50 hover:bg-dark-700 text-slate-400 hover:text-primary-500 transition-colors;
+}
+
+.btn-primary {
+  @apply px-4 py-2 bg-primary-500 hover:bg-primary-600 text-white rounded-lg font-medium transition-all;
+}
