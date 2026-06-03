@@ -79,7 +79,7 @@ function App() {
   }, [])
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-8 lg:py-12 min-h-screen flex flex-col">
+    <div className="max-w-7xl mx-auto px-6 py-8 lg:py-12 min-h-screen flex flex-col">
       <header className="mb-12 flex flex-col md:flex-row md:items-center gap-6 justify-between">
         <div className="flex items-center gap-4">
           <div className="p-4 bg-primary-500 rounded-2xl shadow-xl shadow-primary-500/20">
